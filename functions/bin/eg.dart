@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  print(doSomething(10, 20)());
+  print(doSomething(10, 20)()); // can be call the function immediately
 }
 
 int Function() doSomething(
