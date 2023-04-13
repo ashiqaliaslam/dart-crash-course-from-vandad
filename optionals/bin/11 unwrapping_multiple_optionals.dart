@@ -5,7 +5,7 @@ void main(List<String> args) {
   print(getFullName('John', 'Doe'));
 }
 
-String? getFullName(
+String getFullName(
   String? firstName,
   String? lastName,
 ) =>
@@ -15,5 +15,13 @@ String? getFullName(
     ) ??
     'Empty';
 
-T? withAll<T>(List<T?> optionals, T Function(List<T>) callback) =>
+T? withAll<T>(
+  List<T?> optionals,
+  T Function(List<T>) callback,
+) =>
     optionals.any((e) => e == null) ? null : callback(optionals.cast<T>());
+/// Output
+// Empty
+// Empty
+// Empty
+// John Doe

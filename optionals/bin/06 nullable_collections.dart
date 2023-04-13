@@ -1,7 +1,7 @@
 void main(List<String> args) {
   List<String?>? names;
-  print(names);
   names?.add('Foo');
+  names?.add(null);
   print(names);
 
   final String? first = names?.first;
@@ -12,3 +12,7 @@ void main(List<String> args) {
   names.add(null);
   print(names);
 }
+/// Output
+// null
+// No first name found
+// [Baz, null]

@@ -24,3 +24,6 @@ extension Describe on Object? {
     }
   }
 }
+/// Output
+// Foo Bar Optional
+// String: Foo Bar Optional

@@ -17,7 +17,6 @@ extension Defaultvalues<T> on T? {
     if (shadow != null) {
       return shadow;
     }
-
     switch (T) {
       case int:
         return 0 as T;
@@ -32,3 +31,8 @@ extension Defaultvalues<T> on T? {
     }
   }
 }
+/// Output
+// 
+// John 
+//  Doe
+// John Doe

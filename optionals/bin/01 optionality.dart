@@ -3,3 +3,6 @@ void main(List<String> args) {
   print(name);
   print(null);
 }
+/// Output
+// null
+// null
