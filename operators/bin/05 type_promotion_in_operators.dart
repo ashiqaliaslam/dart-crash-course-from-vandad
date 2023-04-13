@@ -4,3 +4,6 @@ void main(List<String> args) {
   const result = double1 + int1;
   print(result);
 }
+
+/// Output
+// 2.0

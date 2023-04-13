@@ -5,16 +5,16 @@ void main(List<String> args) {
   // unary prefix
   int age = 30;
 
-  print(--age);
-  print(++age);
+  print(--age); // 29
+  print(++age); // 30
 
-  print(-age);
+  print(-age); // -30
 
-  print(!true);
+  print(!true); // false
 
   /// unary bitwise completement prefix operator
-  print(1);
-  print(~1);
+  print(1); // 1
+  print(~1); // -2
 
   /// (0000 0000) (0000 0000) (0000 0000) (0000 0001)
   /// (1111 1111) (1111 1111) (1111 1111) (1111 1110)
